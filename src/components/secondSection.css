@@ -1,0 +1,66 @@
+/* src/styles.css */
+.savings-success {
+  padding: 20px;
+  text-align: center;
+  background-image: url("/assets/33back.jpeg"); /* Вставте URL вашого зображення */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh; /* Забезпечуємо висоту екрану */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.savings-story {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ddd;
+  font-size: 1.9rem;
+  line-height: 1.5;
+}
+
+.savings-progress {
+  margin-top: 30px;
+}
+
+/* Виділяємо блок в рамку і застосовуємо ефект blur */
+.savings-container {
+  padding: 20px;
+  border: 2px solid rgb(12, 12, 12); /* Біла напівпрозора рамка */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Розмиваємо фон за межами блоку */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Напівпрозорий фон всередині контейнера */
+  width: 80%;
+  margin: 0 auto;
+}
+.savings-container h1 {
+  font-size: 2.1rem;
+}
+
+/* Адаптивний дизайн */
+@media (max-width: 768px) {
+  .savings-success {
+    padding: 15px;
+  }
+
+  .savings-story {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .savings-success {
+    padding: 10px;
+  }
+
+  .savings-story {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,69 @@
+.financial-opportunities {
+  position: relative;
+  padding: 200px 40px;
+  overflow: hidden; /* Запобігає виходу псевдоелемента за межі секції */
+  text-align: center;
+}
+
+.financial-opportunities::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/11back.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px); /* Заблюрений фон */
+  z-index: 0; /* Фон під текстом */
+ 
+}
+
+.container {
+  position: relative;
+  z-index: 1; /* Текст і кнопки зверху фону */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 4.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 2.6rem;
+
+  color: #282323;
+  margin-bottom: 30px;
+}
+.cta-button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #748190;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .cta-button {
+    font-size: 0.875rem;
+    padding: 8px 16px;
+  }
+}

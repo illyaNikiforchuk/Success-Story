@@ -1,0 +1,70 @@
+/* src/styles.css */
+.investment-success {
+  padding: 20px;
+  text-align: center;
+  background-image: url("/assets/33back.jpeg"); /* Вставте URL вашого зображення */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh; /* Забезпечуємо висоту екрану */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.investment-story {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ddd;
+  font-size: 1.9rem;
+  line-height: 1.5;
+}
+
+.investment-progress {
+  margin-top: 30px;
+}
+
+/* Виділяємо блок в рамку і застосовуємо ефект blur */
+.investment-container {
+  padding: 20px;
+  border: 2px solid rgb(12, 12, 12); /* Чорна напівпрозора рамка */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Розмиваємо фон за межами блоку */
+  background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий фон всередині контейнера */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.investment-container h1 {
+font-size: 2.1rem;
+}
+
+/* Адаптивний дизайн */
+@media (max-width: 768px) {
+  .investment-success {
+    padding: 15px;
+  }
+
+  .investment-story {
+    font-size: 1rem;
+  }
+
+  .investment-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .investment-success {
+    padding: 10px;
+  }
+
+  .investment-story {
+    font-size: 0.9rem;
+  }
+
+  .investment-container {
+    width: 95%;
+  }
+}
