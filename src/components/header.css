@@ -68,7 +68,7 @@ body {
 .menu-toggle .bar {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
 }
 
