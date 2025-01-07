@@ -1,6 +1,6 @@
 /* src/styles.css */
 .family-planning-success {
-  background-image: url("/assets/44back.jpeg");
+  background-image: url("/assets/44back.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 .story-container {
-  background-color: #19181874;
+  background-color: #191818cb;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 40px;

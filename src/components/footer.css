@@ -1,6 +1,6 @@
 /* src/footer.css */
 .footer {
-   background-image: url("/assets/banner.jpeg"); /* Background image */
+   background-image: url("/public/assets/banner2.jpeg"); /* Background image */
   background-size: cover; /* Stretch the background image */
   background-position: center; /* Center the background */
   color: #fff; /* Білий текст */

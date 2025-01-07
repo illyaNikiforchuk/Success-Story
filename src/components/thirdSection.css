@@ -2,7 +2,7 @@
 .investment-success {
   padding: 20px;
   text-align: center;
-  background-image: url("/assets/33back.jpeg"); /* Вставте URL вашого зображення */
+  background-image: url("/assets/back333.webp"); /* Вставте URL вашого зображення */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -31,13 +31,18 @@
   border: 2px solid rgb(12, 12, 12); /* Чорна напівпрозора рамка */
   border-radius: 15px;
   backdrop-filter: blur(10px); /* Розмиваємо фон за межами блоку */
-  background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий фон всередині контейнера */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Напівпрозорий фон всередині контейнера */
   width: 80%;
   margin: 0 auto;
 }
 
 .investment-container h1 {
-font-size: 2.1rem;
+  font-size: 2.1rem;
 }
 
 /* Адаптивний дизайн */
